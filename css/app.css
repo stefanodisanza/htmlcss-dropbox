@@ -65,7 +65,7 @@ button {
 
 .container_hero{
     margin: 0 auto;
-    width: 1232px;
+    max-width: 1232px;
         
 }
 
