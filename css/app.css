@@ -2,6 +2,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 img {
@@ -21,14 +23,16 @@ button {
 /* regole zona header */
 
 .header{
-    width: 2000px;
+    max-width: 2000px;
     background-color: #FFFFFF;
     padding: 23px;
+    margin: 0 auto;
 }
 
 .navbar{
     display: flex;
     justify-content: space-between;
+    
     
 }
 
@@ -50,4 +54,49 @@ button {
     line-height: 36px;
     padding: 0 18px;
     
+}
+
+/* regole zona hero */
+
+.hero{
+    background-color: #B3CFE7;
+
+}
+
+.container_hero{
+    margin: 0 auto;
+    width: 1232px;
+        
+}
+
+.row_title{
+    padding: 100px 0 50px 0;
+    font-size: 52px;
+}
+
+.row_2{
+    display: flex;
+}
+
+.col_4{
+    width: calc(100% / 12 * 4);
+    position: relative;
+}
+
+.row_8{
+    width: calc(100% / 12 * 8);
+}
+
+p{
+    padding: 30px 0;
+}
+
+.jumbo_hero{
+    padding: 30px 0;
+}
+
+.fa-down-long{
+    font-size: 43px;
+    position: absolute;
+    bottom: 22px;
 }
