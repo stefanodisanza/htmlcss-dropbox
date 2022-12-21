@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+ul,
+ol,
+li{
+    list-style: none;
+}
+
+button {
+    all: unset;
+  }
+
+/* regole zona header */
+
+.header{
+    width: 2000px;
+    background-color: #FFFFFF;
+    padding: 23px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav_left{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.nav_right{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.button_blue{
+    background-color: #0060ff;
+    color: white;
+    line-height: 36px;
+    padding: 0 18px;
+    
+}
