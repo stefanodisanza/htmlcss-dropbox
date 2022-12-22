@@ -14,41 +14,84 @@
     <header class="header">
         <nav class="navbar">
             <ul class="nav_left">
-                <li><img src="./img/logo-small.png" alt="logo"></li>
-                <li>Perché Dropbox</li>
-                <li>Funzioni</li>
-                <li>Piani e Prezzi</li>
+                <li><img class="logo__dropbox" src="./img/logo-small.png" alt="logo"></li>
+                <li> <a href="#">Perché Dropbox</a></li>
+                <li><a href="#">Funzioni</a></li>
+                <li><a href="#">Piani e Prezzi</a></li>
             </ul>
             <ul class="nav_right">
-                <li>Supporto</li>
-                <li>Contatta l'ufficio vendite</li>
-                <li>Accedi</li>
-                <li><button class="button_blue">Inizia</button></li>
+                <li><a href="#">Supporto</a></li>
+                <li><a href="#">Contatta l'ufficio vendite</a></li>
+                <li><a href="#">Accedi</a></li>
+                <li>
+                    <button class="button_blue">
+                        <a href="#">Inizia</a>
+                    </button>
+                </li>
             </ul>
         </nav>
     </header>
-    <!-- Sezione Hero -->
-    <Section class="hero">
-        <div class="container_hero">
-            <div class="row_title">
-                <h2>Tutto ció che ti serve per il lavoro, in un unico posto</h2>
+    <main>
+        <!-- Sezione Hero -->
+        <Section class="hero">
+            <div class="container_hero">
+                <div class="row_title">
+                    <h2>Tutto ció che ti serve per il lavoro, in un unico posto</h2>
+                </div>
+                <div class="row_2">
+                    <div class="col_4">
+                        <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business é piú di uno spazio di archiviazione sicuro: é un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+                        <button class="button_blue"> Inizia la tua prova gratuita
+                        </button>
+                        <p>Annulla in qualsiasi momento</p>
+                        <i class="fa-solid fa-down-long"></i>
+                    </div>
+                    <div class="row_8">
+                        <img class="jumbo_hero" src="./img/jumbo.png" alt="img jumbo">
+                    </div>
+                </div>
+
             </div>
-            <div class="row_2">
-                <div class="col_4">
-                    <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business é piú di uno spazio di archiviazione sicuro: é un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
-                    <button class="button_blue"> Inizia la tua prova gratuita
-                    </button>
-                    <p>Annulla in qualsiasi momento</p>
-                    <i class="fa-solid fa-down-long"></i>
+        </Section>
+
+        <!-- Sezione piani pagamento -->
+        <section class="section plans">
+            <div class="container_payments">
+                <div class="row">
+                    <div class="col_12">
+                        <h2>Trova il piano business che fa per te</h2>
+                    </div>
+                    <div class="col_12">
+                        <input class="selettore_pagamento" type="radio" name="pagamento" value="mensile">Fatturazione mensile
+                        <input class="selettore_pagamento" type="radio" name="pagamento" value="annuo">Fatturazione annua
+                    </div>
+                    <div class="col_4">
+                        <div class="card">
+                            Piano 1
+                        </div>
+                    </div>
+                    <div class="col_4">
+                        <div class="card">
+                            Piano 2
+                        </div>
+                    </div>
+                    <div class="col_4">
+                        <div class="card">
+                            Piano 3
+                        </div>
+                    </div>
+                    <div class="col_12">
+                        <div class="card">
+                            Piano 4
+                        </div>
+                    </div>
+                    
                 </div>
-                <div class="row_8">
-                    <img class="jumbo_hero" src="./img/jumbo.png" alt="img jumbo">
-                </div>
+
             </div>
 
-        </div>
 
-    </Section>
-    
+        </section>
+    </main>
 </body>
 </html>
