@@ -166,6 +166,8 @@ p{
 
 .card_body{
     padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
     }
 
 .icon_padding{
@@ -178,3 +180,70 @@ p{
     color: purple;
 }
 
+.plans_info{
+    padding-top: 50px;
+}
+
+.plans_info > li{
+    padding-bottom: 25px;
+    display: flex;
+}
+
+.large{
+    text-align: center;
+    align-content: center;
+    flex-grow: 2;
+    
+}
+
+.buy_now{
+    text-decoration: underline;
+    color: purple;
+}
+
+.azzurrino{
+    color: #0060ff;
+}
+
+
+.salient_point{
+    padding-top: 50px;
+}
+
+.salient_point > li{
+    padding-bottom: 25px;
+    display: flex;
+}
+
+.container_partner{
+    max-width: 1050px;
+    margin: 50px auto;
+    
+}
+
+.col_60{
+    flex-basis: 60%;
+    
+}
+
+.col_40{
+    margin-top: 50px;
+    flex-basis: 40%;
+    
+}
+
+.button_trasparent{
+    padding: 10px;
+    border: 1px solid gray;
+    color: gray;
+    
+}
+
+.container_operation{
+    max-width: 1050px;
+    margin: 100px auto;
+}
+
+.operation{
+    margin-bottom: 50px;
+}
