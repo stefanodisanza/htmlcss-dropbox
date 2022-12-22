@@ -136,11 +136,14 @@ p{
 .row{
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .card{
     border: 1px solid black;
     padding: 20px;
+   
+    
 }
 
 .row:not(.no-gutter) {
@@ -155,3 +158,23 @@ p{
 	/* border: 4px solid blue; */
 	padding: 0 25px;
 }
+
+.card_head{
+    display: flex;
+    justify-content: center;
+}
+
+.card_body{
+    padding-top: 25px;
+    }
+
+.icon_padding{
+    padding-right: 5px;
+    
+}
+
+.acquista_ora{
+    text-decoration: underline;
+    color: purple;
+}
+
