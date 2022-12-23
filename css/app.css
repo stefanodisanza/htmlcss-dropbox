@@ -38,7 +38,7 @@ button {
 .navbar{
     display: flex;
     justify-content: space-between;
-    
+   
     
 }
 
@@ -56,6 +56,7 @@ button {
 
 
 .logo__dropbox{
+    
     
 }
 
@@ -128,6 +129,7 @@ p{
     
 }
 
+
 .col_12 > h2{
     font-size: 35px;
 }
@@ -141,10 +143,14 @@ p{
 
 .card{
     border: 1px solid black;
-    padding: 20px;
-   
-    
+    /* padding: 20px; */
+    height: 100%;   
 }
+
+
+
+
+
 
 .row:not(.no-gutter) {
 	margin: 0 -25px;
@@ -160,12 +166,14 @@ p{
 }
 
 .card_head{
-    display: flex;
-    justify-content: center;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 8px 32px;
+
 }
 
 .card_body{
-    padding-top: 25px;
+    padding: 25px 32px;
     display: flex;
     flex-wrap: wrap;
     }
@@ -246,4 +254,13 @@ p{
 
 .operation{
     margin-bottom: 50px;
+}
+
+.lineabassa::before{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 60px;
+    background-color: black;
+    margin-bottom: 60px;
 }
