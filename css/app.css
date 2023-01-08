@@ -264,3 +264,67 @@ p{
     background-color: black;
     margin-bottom: 60px;
 }
+
+.drop_business{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 34px;
+}
+
+.container_quadrati{
+    margin: 0 auto;
+    max-width: 1232px;
+        
+}
+
+.faq{
+    max-width: 1050px;
+    margin: 100px auto;
+   }
+
+   .faq_title{
+    font-size: 34px;
+    border-bottom: 1px solid black;
+   }
+
+.faq_list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+}
+
+.link_footer :first-child {
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 50px;
+  }
+
+.footer{
+    background-color: black;
+}
+
+.container_footer{
+    max-width: 1232px;
+    margin: 0 auto;
+}
+
+.row_5{
+     display: flex;
+     justify-content: space-between;
+    }
+
+.link_footer{
+    color: white;
+    
+}
+
+.footer_items{
+    padding-bottom: 15px;
+}
+
+.col_footer{
+    flex-basis: calc(100% / 5);
+}
+
